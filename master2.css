@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+
+.box_size{
+width: 100%;
+height: 900px;
+display: flex;
+justify-content: center;
+
+}
+
+.box1{background-color: #ffffff;}
+.box2{background-color: #f1df52;}
+.box3{background-color: #dcdbe1;}
+.box4{
+background-image: url('img/c_05.png');
+background-repeat: inherit;
+background-position-x:center ;
+background-color: #000000;
+background-size: cover;
+}
+
+
+.wrap{
+width: 1100px;
+height: 900px;
+border: 0px solid red;
+position: absolute;
+}
+
+.b1_img01{
+position: inherit;
+top: 79px;
+
+}
+
+.b1_img02{
+position: inherit;
+top: 79px;
+right: 0px;
+}
+
+
+.b1_cont{
+bottom: 0px;
+position: inherit;
+border:0px solid blue;
+width: 260px;
+left: 272px;
+bottom: 113px;
+text-align: right;
+
+font-family:'Noto Sans KR', sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+letter-spacing: -0.06em;
+line-height: 1.4;
+
+}
+
+.box2> .wrap {
+background-image: url('img/c_03.png');
+background-repeat: no-repeat;
+background-position-y: bottom;
+}
+
+
+.b2_cont{
+position: inherit;
+border: 0px solid blue;
+top:77px;
+
+font-family:'Noto Sans KR', sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+letter-spacing: -0.06em;
+line-height: 1.4;
+}
+
+
+.box3> .wrap {
+background-image: url('img/c_04.png');
+background-repeat: no-repeat;
+background-position-y: bottom;
+background-position-x: center;
+}
+
+
+.b3_cont{
+position: inherit;
+border: 0px solid blue;
+top:52px;
+
+font-family:'Noto Sans KR', sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+letter-spacing: -0.06em;
+line-height: 1.4;
+}
+
+.b4{
+position: inherit;
+border: 0px solid blue;
+width: 100%;
+}
+
+.b4_cont01 {
+top: 61px;
+display: flex;
+justify-content: center;
+
+}
+
+.b4_cont02 {
+top: 637px;
+font-weight: medium;
+font-style: Noto Sans KR;
+font-size: 24px;
+color: #ffffff;
+letter-spacing: -0.06em;
+line-height: 1.4;
+text-align: center;
+
+}
+
+.b4_cont03 {
+top: 723px;
+font-weight: medium;
+font-style: Noto Sans KR;
+font-size: 16px;
+color: #ffffff;
+letter-spacing: -0.06em;
+line-height: 2.1;
+text-align: center;
+
+}
+
+.b4_cont04 {
+top: 796px;
+display: flex;
+justify-content: center;
+
+}
